@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: FFFFFF;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    padding-right: 0;    
+}
+
+#logo{
+    display: flex;
+    font-family:cursive;
+    font-size: 20px;
+    padding-bottom: 20px;
+  
+   
+}
+
+nav{
+    background-color:#F7ECDE;
+    padding: 2%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+   
+ 
+    
+    
+    
+}
+nav a {
+    font-family: cursive;
+    padding: 20px;
+    text-decoration: none;
+    transition:  1s;
+    color: black;
+   
+
+}
+nav a:hover {
+            background-color:#cda36d;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border-radius: 20px;
+
+}
+#intro{
+    padding: 24px;
+    display: flex;
+    justify-content: center;    
+    position: sticky;
+    z-index: 100;
+}
+#intro img{
+       position: absolute;
+       right: 55%;
+}
+#intro h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px; 
+    position: relative;
+     
+}
+
+#searchbar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    
+}
+div input{
+    position: absolute;
+    height: 40px;
+}
+div svg{
+    position: relative;
+    left: 16%;
+}
+
+
+#normalh3{
+    margin-left: 2.5%;
+}
+.bookline1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    justify-content: space-around;
+    
+
+}
+.bookline1_image{
+    width: 100%;
+}
+
+.Sbtn{
+    margin: 10%;
+    display: flex;
+   
+    justify-content: space-around;
+    
+}
+.Sbtn a{
+    text-decoration: none;
+}
+.Pbtn{
+    border: black 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+   
+}
+
+.bookoftheweek{
+    background-color: #F7ECDE;
+    
+    margin: 5%;
+    margin-top:3% ;
+    display: flex;
+   
+}
+.bookoftheweek div{
+    padding: 20px;
+    display: grid;
+    align-items: center;
+   
+}
+.bookoftheweek div h3{
+    font-size: 35px;
+    font-family: cursive;
+}
+
+.bookoftheweek div h6{
+    font-size: small;
+    color: #DEA331;
+
+}
+.bookoftheweek div p{
+    color: #646464;
+    
+}
+.requestform{
+  text-align: center;
+  margin: 10%;
+  padding: 30px;
+  background-color: #F7ECDE;
+  border-radius: 10px;
+
+
+}
+.requestform input{
+    border-radius: 20px;
+    padding: 1%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0px;
+}
+.requestform textarea{
+    border-radius: 20px;
+    border: 0px;
+ 
+    height: 100px;
+    width: 200px;
+     resize: vertical;
+
+
+
+}
+.requestform label{
+    font-family: cursive;
+}
+#requestsubmit{
+    font-family: cursive;
+    background-color: blue;
+    color: #F7ECDE;
+
+}
+.requestform h5{
+    font-family: monospace;
+}
+.requestform a{
+    text-decoration: none;
+}
+
+.singlebookdiv{
+    background-color: #F7ECDE;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: cursive;
+    font-size: 10px;
+
+}
+
+
+ footer{
+            background-color: #F7ECDE;
+            text-align: center;
+            padding: 2.5rem;
+            font-family: cursive;
+           
+    }
+
+footer h6{
+    font-family: cursive;
+    color: #CAAF8D;
+}
+
