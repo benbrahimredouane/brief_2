@@ -5,13 +5,21 @@
 }
 
 body{
-    background-color: FFFFFF;
+    background-color:#AAAAAA;
 }
 header{
-    display: flex;
+     
+   
+     display: flex;
     justify-content: space-between;
     padding: 3%;
-    padding-right: 0;    
+    padding-right: 0; 
+
+
+}
+header a{
+    text-decoration: none;
+    color: black;
 }
 
 #logo{
@@ -19,7 +27,7 @@ header{
     font-family:cursive;
     font-size: 20px;
     padding-bottom: 20px;
-  
+    
    
 }
 
@@ -28,34 +36,34 @@ nav{
     padding: 2%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-   
- 
-    
-    
+    float: right;
     
 }
 nav a {
+    
     font-family: cursive;
     padding: 20px;
     text-decoration: none;
     transition:  1s;
     color: black;
    
+   
 
 }
 nav a:hover {
-            background-color:#cda36d;
-            padding-top: 15px;
-            padding-bottom: 15px;
+            
+            background-color: #F7ECDE;
+            border-bottom: blue 2px solid;
             border-radius: 20px;
+            
 
 }
 #intro{
     padding: 24px;
     display: flex;
     justify-content: center;    
-    position: sticky;
-    z-index: 100;
+    
+    
 }
 #intro img{
        position: absolute;
@@ -73,21 +81,38 @@ nav a:hover {
     display: flex;
     justify-content: center;
     margin-bottom: 10%;
+  
     
 }
-div input{
-    position: absolute;
-    height: 40px;
+#searchbar input{
+    border-radius: 20px; width: 300px;
+    border: 0;
 }
-div svg{
-    position: relative;
-    left: 16%;
-}
-
 
 #normalh3{
     margin-left: 2.5%;
+   
 }
+
+.bookline1 div a {
+    font-family: monospace;
+    text-decoration: none;
+    color: black;
+}
+.bookline1 div img:hover{
+  
+    box-shadow:4px 4px;
+    transition: 1s;
+}
+
+.bookline1 div a h4{
+    font-size: 15px;
+}
+.bookline1 div a p{
+    font-size: 8px;
+    color: #C9C9C9;
+}
+
 .bookline1{
     margin-top: 20px;
     display: flex;
@@ -103,27 +128,34 @@ div svg{
 }
 
 .Sbtn{
-    margin: 10%;
+    margin: 3%;
     display: flex;
-   
     justify-content: space-around;
     
 }
 .Sbtn a{
     text-decoration: none;
 }
+
 .Pbtn{
-    border: black 1px solid;
+    color: black;
+    border: black px solid;
     border-radius: 10px;
     padding: 10px;
     padding-left: 15px;
     padding-right: 15px;
+    background-color: #F7ECDE;
    
+    
+   
+}
+.Pbtn:hover{
+    background-color:#54BAB9;
+    transition: 1s;
 }
 
 .bookoftheweek{
     background-color: #F7ECDE;
-    
     margin: 5%;
     margin-top:3% ;
     display: flex;
@@ -165,23 +197,32 @@ div svg{
     padding-right: 20px;
     border: 0px;
 }
+.requestform input:hover{
+    border:  red 2px solid;
+   
+    
+}
 .requestform textarea{
     border-radius: 20px;
     border: 0px;
  
     height: 100px;
     width: 200px;
-     resize: vertical;
+    resize: vertical;
 
 
 
+}
+.requestform textarea:hover{
+     border:  red 2px solid;
+  
 }
 .requestform label{
     font-family: cursive;
 }
 #requestsubmit{
     font-family: cursive;
-    background-color: blue;
+    background-color: #54BAB9;
     color: #F7ECDE;
 
 }
@@ -219,4 +260,5 @@ footer h6{
     font-family: cursive;
     color: #CAAF8D;
 }
+
 
