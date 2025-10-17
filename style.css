@@ -6,20 +6,31 @@
 
 body{
     background-color:#AAAAAA;
+    animation-name: myanime;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
 }
+
 header{
      
    
-     display: flex;
+    display: flex;
     justify-content: space-between;
     padding: 3%;
     padding-right: 0; 
+    position: sticky;
+    top: 0; 
+    z-index: 1000;
 
 
 }
+
 header a{
     text-decoration: none;
     color: black;
+   
+   
 }
 
 #logo{
@@ -27,33 +38,50 @@ header a{
     font-family:cursive;
     font-size: 20px;
     padding-bottom: 20px;
+    background-color:#F7ECDE;
+    padding: 10px;
+    border-radius: 20px;
     
    
 }
 
 nav{
     background-color:#F7ECDE;
-    padding: 2%;
+    padding: 10px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    float: right;
+  
     
 }
+
+
 nav a {
     
     font-family: cursive;
-    padding: 20px;
     text-decoration: none;
-    transition:  1s;
+    transition: 0.5s;
     color: black;
+    padding: 10px;
+
    
    
 
 }
+@media (max-width:600px) {
+    header{
+        flex-direction: column;
+    }
+    header nav{
+        justify-content: center;
+    }
+    header h3{
+        justify-content: center;
+    }
+}
 nav a:hover {
             
             background-color: #F7ECDE;
-            border-bottom: blue 2px solid;
+            border-bottom: blue 4px solid;
             border-radius: 20px;
             
 
@@ -61,9 +89,8 @@ nav a:hover {
 #intro{
     padding: 24px;
     display: flex;
-    justify-content: center;    
-    
-    
+    justify-content: center;   
+   
 }
 #intro img{
        position: absolute;
@@ -187,6 +214,9 @@ nav a:hover {
   padding: 30px;
   background-color: #F7ECDE;
   border-radius: 10px;
+  animation-name: myanime2;
+  animation-duration: 2s;
+
 
 
 }
@@ -259,6 +289,29 @@ nav a:hover {
 footer h6{
     font-family: cursive;
     color: #CAAF8D;
+}
+
+@keyframes myanime{
+    
+    0%{
+    background-color:#AAAAAA;
+       
+    }
+    25%{
+        background-color: #DEA331;
+    }
+    50%{
+        background-color: aliceblue;
+    }
+    100%{
+        background-color:azure;
+    }
+}
+
+@keyframes myanime2 {
+    0%{opacity: 0%;}
+    100%{opacity:100%;}
+    
 }
 
 
