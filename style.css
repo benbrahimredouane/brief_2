@@ -188,6 +188,10 @@ nav a:hover {
     display: flex;
    
 }
+
+
+    
+
 .bookoftheweek div{
     padding: 20px;
     display: grid;
@@ -314,4 +318,12 @@ footer h6{
     
 }
 
+@media(max-width:600px) {
+    .bookoftheweek div p {
+      
+        font-size: 10px;
+      
+       
+    }
+}
 
